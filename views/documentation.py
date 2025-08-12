@@ -67,5 +67,3 @@ This project was made possible with:
 - **Streamlit**: Enabling seamless user interaction and customization. 🚀
 """)
 
-# Footer Section
-st.write("For further details, please refer to the [project repository](https://github.com/miteshgupta07/SketchGen) or contact me through the **About Developer** page. 📞")
