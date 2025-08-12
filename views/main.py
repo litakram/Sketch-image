@@ -6,11 +6,10 @@ from PIL import Image
 import os
 from dotenv import load_dotenv
 
-st.secrets["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"]
 
 load_dotenv()
 # Setting up Hugging Face token from environment variable for secure access
-hf_token = st.secrets["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"]
+hf_token = st.secrets["hf_token"]
 
 # Function to load the Stable Diffusion model from Hugging Face using the token
 @st.cache_resource
